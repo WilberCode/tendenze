@@ -4,21 +4,21 @@
       "id": "1",
       "img": "images/clientes/nm-viajes.svg",
       "title": "nuevo mundo viajes",
-      "width": 80,
+      "width": 100,
       "tipo": "cuadrado"
     },
     {
       "id": "2",
       "img": "images/clientes/el-quinde.svg",
       "title": "el quinde",
-      "width": 90,
+      "width": 120,
       "tipo": "cuadrado"
     },
     {
       "id": "3",
       "img": "images/clientes/nm-espacios.svg",
       "title": "nuevo mundo espacios",
-      "width": 90,
+      "width": 100,
       "tipo": "cuadrado"
     },
     {
@@ -29,17 +29,17 @@
       "tipo": "cuadrado"
     },
     {
-      "id": "5",
-      "img": "images/clientes/destinos-mundiales.svg",
-      "title": "destinos mundiales",
-      "width": 110,
+      "id": "10",
+      "img": "images/clientes/decameron.svg",
+      "title": "decameron",
+      "width": 200,
       "tipo": "horizontal"
     },
     {
       "id": "6",
       "img": "images/clientes/luna-de-miel.svg",
       "title": "luna de miel",
-      "width": 100,
+      "width": 110,
       "tipo": "cuadrado"
     },
     {
@@ -49,25 +49,18 @@
       "width": 150,
       "tipo": "cuadrado"
     },
-    {
-      "id": "8",
-      "img": "images/clientes/equifax.svg",
-      "title": "equifax",
-      "width": 150,
-      "tipo": "horizontal"
-    },
+     {
+       "id": "8",
+       "img": "images/clientes/equifax.svg",
+       "title": "equifax",
+       "width": 150,
+       "tipo": "horizontal"
+     },
     {
       "id": "9",
       "img": "images/clientes/parque-lambramani.svg",
       "title": "parque lambramani",
       "width": 140,
-      "tipo": "horizontal"
-    },
-    {
-      "id": "10",
-      "img": "images/clientes/decameron.svg",
-      "title": "decameron",
-      "width": 200,
       "tipo": "horizontal"
     },
     {
@@ -77,13 +70,15 @@
       "width": 290,
       "tipo": "horizontal"
     },
-    {
-      "id": "12",
-      "img": "images/clientes/klm.svg",
-      "title": "klm",
-      "width": 120,
-      "tipo": "cuadrado"
-    },
+      {
+        "id": "12",
+        "img": "images/clientes/klm.svg",
+        "title": "klm",
+        "width": 120,
+        "tipo": "cuadrado"
+      },
+  
+  
     {
       "id": "13",
       "img": "images/clientes/feria-navidena.svg",
@@ -91,19 +86,27 @@
       "width": 110,
       "tipo": "cuadrado"
     },
-    {
-      "id": "14",
-      "img": "images/clientes/nm-lima-hotel.svg",
-      "title": "nm lima hotel",
-      "width": 100,
-      "tipo": "cuadrado"
-    },
+    
     {
       "id": "15",
       "img": "images/clientes/agrovet.svg",
       "title": "agrovet",
       "width": 220,
       "tipo": "horizontal"
+    },
+    {
+      "id": "20",
+      "img": "images/clientes/marcan.svg",
+      "title": "marcan",
+      "width": 210,
+      "tipo": "horizontal"
+    },
+    {
+      "id": "14",
+      "img": "images/clientes/nm-lima-hotel.svg",
+      "title": "nm lima hotel",
+      "width": 120,
+      "tipo": "cuadrado"
     },
     {
       "id": "16",
@@ -134,12 +137,13 @@
       "tipo": "horizontal"
     },
     {
-      "id": "20",
-      "img": "images/clientes/marcan.svg",
-      "title": "marcan",
-      "width": 210,
+      "id": "19",
+      "img": "images/clientes/elquinde-shopping-plaza.png",
+      "title": "elquinde",
+      "width": 140,
       "tipo": "horizontal"
     },
+    
     {
       "id": "21",
       "img": "images/clientes/azzurra.svg",
@@ -165,8 +169,36 @@
       "id": "24",
       "img": "images/clientes/corporacion.jpg",
       "title": "Corporacion",
+      "width": 90,
+      "tipo": "cuadrado"
+    },
+    {
+      "id": "24",
+      "img": "images/clientes/albamar.png",
+      "title": "Albamar",
+      "width": 150,
+      "tipo": "cuadrado"
+    },
+    {
+      "id": "24",
+      "img": "images/clientes/met-fest.png",
+      "title": "Met Fest",
       "width": 100,
       "tipo": "cuadrado"
+    },
+    {
+      "id": "5",
+      "img": "images/clientes/nua.png",
+      "title": "Nua",
+      "width": 180,
+      "tipo": "horizontal"
+    },
+    {
+      "id": "5",
+      "img": "images/clientes/elpolo.png",
+      "title": "El polo",
+      "width": 200,
+      "tipo": "horizontal"
     }
   ]
 }
