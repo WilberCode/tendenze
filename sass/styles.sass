@@ -31,7 +31,7 @@ strong
 
   .sliderPrincipal
     height: 100vw
-    background-image: url(../images/upBackground.jpg)
+    background-image: url(../images/oficina-tendenze-adretail.png)
     background-position: center top
     background-size: 210%
     background-repeat: no-repeat
@@ -181,7 +181,7 @@ strong
     margin: auto
   
   .clientes
-    margin: auto
+    margin: 3em auto 
   
   .gallery
     margin: 20px auto
@@ -249,6 +249,11 @@ strong
     .cli-horizontal
       width: 40%
       margin: 20px auto
+    
+  .comoHacemos 
+      
+    p
+      font-size: 20px
 
 
 @media all and (min-width: 765px)
@@ -283,17 +288,25 @@ strong
     margin: 2vw 0
 
   .sliderPrincipal
-    height: 80vh
+    height: 90vh
     margin-bottom: 0
     margin-top: 6vw
-    background-size: 120%
+    background-size: 100%
+    &::before
+      content: ""
+      position: absolute 
+      left: 0
+      right: 0
+      bottom: 0
+      height: 10%
+      background: rgba($yellowColor,0.90)
     .mensajeSlider
       margin: 0 
       height: 100%
       width: auto
-      left: inherit
-      right: 5%
-      top: 10%
+      right: inherit
+      left: 10%
+      top: 6%
 
     .rssTendenze
       position: absolute
@@ -339,12 +352,12 @@ strong
         bottom: 0
         
   .services
-    margin: 5vw auto
+    margin: 1vw auto 4vw auto 
     .itemServices
       width: 24%
       h3
         width: 80%
-        margin: 10px auto
+        margin: 28px auto auto
         font-size: 2rem
         line-height: 1.2
         padding: 5px 0
@@ -352,7 +365,9 @@ strong
         text-transform: uppercase
       p
         width: 80%
-        margin: auto
+        margin: 10px auto auto 
+        font-size: 18px
+        font-weight: 800
   
   .servicesTop
     .buble
@@ -369,13 +384,17 @@ strong
   .comoHacemos
     h2
       font-size: 7rem
+      
+    p
+      word-spacing: 5px
+      font-weight: 900
   
   .gallery
     .itemGallery
       width: 25%
+      text-align: center
       img
-        width: 99%
-  
+        width: 99% 
   .categorias
     height: 35vw
     width: 100%

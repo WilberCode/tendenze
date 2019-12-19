@@ -115,7 +115,7 @@ let _parallaxSlider = () => {
     let posElementWrapp = slider.getBoundingClientRect();
     let heightScreen = window.innerHeight - 50;
     if (posElementWrapp.top < heightScreen) {
-      slider.style.backgroundPosition = 'center ' + -parseInt(posElementWrapp.top / 2) + 'px';
+      slider.style.backgroundPosition = 'center ' + -parseInt(posElementWrapp.top / 8) + 'px';
     }
 }
 
