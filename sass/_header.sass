@@ -45,10 +45,10 @@
       margin: auto
       right: 10vw
       font-size: 2.5rem
-      z-index: 99
+      z-index: 99 
     .activeHamburguer
       background-color: $yellowColor
-      color: $whiteColor
+      // color: $whiteColor
       animation-name: fixedHeader
       animation-direction: normal
       animation-fill-mode: forwards
@@ -65,6 +65,7 @@
       right: 0
       margin: 0
       display: none !important
+      flex-wrap: wrap
       li
         width: 100%
         text-align: center 
@@ -90,6 +91,7 @@
       background-color: $whiteColor
       position: relative
       display: flex!important
+      flex-wrap: nowrap !important
       li
         margin: 0 .5vw
         background-color: $whiteColor
