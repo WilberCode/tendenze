@@ -10,6 +10,7 @@ let _callServices = () => {
       let title = document.createElement('h3');
       let description = document.createElement('p');
       title.innerHTML = val.title;
+      imgWrapp.alt = val.title;
       description.innerHTML = val.description;
       tagWrapp.appendChild(imgWrapp).src = val.img;
       tagWrapp.appendChild(title).classList.add('align_center');
@@ -29,6 +30,7 @@ let _callClients = () => {
         let imgWrapp = document.createElement('img');
         imgWrapp.width = val.width;
         imgWrapp.title = val.title;
+        imgWrapp.alt = val.title;
         imgWrapp.classList.add('cli-'+val.tipo);
         clientes[0].appendChild(imgWrapp).src = val.img
       });
@@ -47,6 +49,7 @@ let _callGallery = () => {
         let imgWrapp = document.createElement('img');
         imgWrapp.title = val.title;
         imgWrapp.src = val.img;
+        imgWrapp.alt = val.title;
         tagWrapp.appendChild(imgWrapp);
         gallery[0].appendChild(tagWrapp)
       });
