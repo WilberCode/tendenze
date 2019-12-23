@@ -9,5 +9,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L] 
 
 # RewriteCond %{HTTP_HOST} ^www\.tendenzeperu\.com$
-# RewriteRule ^/?$ "https\:\/\/tendenzeperu\.com\/" [R=301,L]
+# RewriteRule ^/?$ "https://tendenzeperu\.com" [R=301,L]
 </IfModule>
