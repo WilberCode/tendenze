@@ -13,6 +13,6 @@
     RewriteRule .* - [E=W3TC_PREVIEW:_preview]
     RewriteCond %{REQUEST_METHOD} !=POST
     RewriteCond %{QUERY_STRING} ="" 
-    RewriteCond %{HTTP_HOST} ^www.tendenzeperu.com/$
+    RewriteCond %{HTTP_HOST} ^http://www.tendenzeperu.com/$
     RewriteRule ^/?$ "https\:\/\/tendenzeperu\.com\/" [R=301,L]
 </IfModule>
