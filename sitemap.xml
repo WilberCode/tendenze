@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://tendenzeperu.com/</loc>
-  <lastmod>2019-12-23T16:41:18+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-
-<url>
-  <loc>https://tendenzeperu.com/#que-hacemos</loc>
-  <lastmod>2019-12-23T16:42:18+00:00</lastmod>
-  <priority>0.40</priority>
+<loc>https://tendenzeperu.com/</loc>
+<lastmod>2019-11-25</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-  <loc>https://tendenzeperu.com/#como-hacemos</loc>
-  <lastmod>2019-12-23T16:43:18+00:00</lastmod>
-  <priority>0.50</priority>
+<loc>https://tendenzeperu.com/#que-hacemos</loc>
+<lastmod>2019-12-04</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-  <loc>https://tendenzeperu.com/#experiencia</loc>
-  <lastmod>2019-12-23T16:44:18+00:00</lastmod>
-  <priority>0.60</priority>
+<loc>https://tendenzeperu.com/#como-hacemos</loc>
+<lastmod>2019-12-23</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-  <loc>https://tendenzeperu.com/#galeria</loc>
-  <lastmod>2019-12-23T16:45:18+00:00</lastmod>
-  <priority>0.70</priority>
+<loc>https://tendenzeperu.com/#experiencia</loc>
+<lastmod>2019-12-08</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
-  <loc>https://tendenzeperu.com/#contacto</loc>
-  <lastmod>2019-12-23T16:46:18+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://tendenzeperu.com/#galeria</loc>
+<lastmod>2019-10-28</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
 </url>
-
+<url>
+<loc>https://tendenzeperu.com/#contacto</loc>
+<lastmod>2019-12-20</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+  
 </urlset>
+
+
+ 
