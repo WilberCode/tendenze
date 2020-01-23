@@ -91,7 +91,6 @@ let _getDataAbout = () => {
           dot.setAttribute('disabled', true);
         }
         dots[0].appendChild(dot);
-
         tagWrapp.appendChild(title);
         tagWrapp.appendChild(description);
         sliderInformacion[0].appendChild(tagWrapp);
