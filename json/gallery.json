@@ -2,42 +2,42 @@
   "gallery": [
     {
       "id": "1",
-      "img": "images/gallery/lima.png",
+      "img": "images/gallery/lima.webp",
       "title": "Lima"
     },
     {
       "id": "2",
-      "img": "images/gallery/adretail-oficina.png",
+      "img": "images/gallery/adretail-oficina.webp",
       "title": "Oficina Tendenze Perú"
     },
     {
       "id": "3",
-      "img": "images/gallery/vision.png",
+      "img": "images/gallery/vision.webp",
       "title": "Visión y Datos estadisticos"
     },
     {
       "id": "4",
-      "img": "images/gallery/cafe.png",
+      "img": "images/gallery/cafe.webp",
       "title": "Café"
     },
     {
       "id": "5",
-      "img": "images/gallery/time-to-lunch.png",
+      "img": "images/gallery/time-to-lunch.webp",
       "title": "Time to Lunch"
     },
     {
       "id": "6",
-      "img": "images/gallery/reunion.png",
+      "img": "images/gallery/reunion.webp",
       "title": "Planificación"
     },
     {
       "id": "7",
-      "img": "images/gallery/eslogan.png",
+      "img": "images/gallery/eslogan.webp",
       "title": "Nuestro Pensamiento"
     },
     {
       "id": "8",
-      "img": "images/gallery/creativa.png",
+      "img": "images/gallery/creativa.webp",
       "title": "Publicidad con creatividad"
     }
   ]
