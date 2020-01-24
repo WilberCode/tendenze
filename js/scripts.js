@@ -11,6 +11,7 @@ let _callServices = () => {
       let description = document.createElement('p');
       title.innerHTML = val.title;
       imgWrapp.alt = val.title;
+      imgWrapp.title = val.title;
       description.innerHTML = val.description;
       tagWrapp.appendChild(imgWrapp).src = val.img;
       tagWrapp.appendChild(title).classList.add('align_center');
