@@ -201,7 +201,7 @@ let _onYouTubeIframeAPIReady = (idVideo) => {
       enablejsapi: 1,
       color: 'black',
       // playlist: 'taJ60kskkns, FG0fTKAqZ5g',
-      origin: 'http://127.0.0.1:5500'
+      // origin: 'http://127.0.0.1:5500'
     },
     events: {
       // onReady: _initialize()
