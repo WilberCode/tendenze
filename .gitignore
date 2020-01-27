@@ -1,0 +1,6 @@
+./js/script-original.js
+./sw-production.js
+.prepros-6.config
+.vscode
+./sass
+.gitignore
