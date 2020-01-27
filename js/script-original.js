@@ -243,7 +243,7 @@ let _closeVideo = () => {
     }
 
 }
-
+ 
 let _sliderAbout = () => {
 
 

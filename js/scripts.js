@@ -189,72 +189,11 @@ let _openHideMenu = () => {
   }
 }
 
-/*Youtube */
-let player;
-
-let _onYouTubeIframeAPIReady = (idVideo) => {
-  player = new YT.Player('video-placeholder', {
-    width: '100%',
-    height: '100%',
-    videoId: idVideo,
-    playerVars: {
-      enablejsapi: 1,
-      color: 'black',
-      // playlist: 'taJ60kskkns, FG0fTKAqZ5g',
-      // origin: 'http://127.0.0.1:5500'
-    },
-    events: {
-      // onReady: _initialize()
-    }
-  });
-}
-
-let _openVideo = () => {
-  let videos = document.querySelectorAll('.videoButon');
-  for (let i = 0; i < videos.length; i++) {
-    videos[i].onclick = () =>{
-      let idVideo = videos[i].dataset.video;
-      player.cueVideoById(idVideo);
-      player.setPlaybackQuality('hd1080');
-      player.unMute();
-      player.setVolume(50);
-
-      document.getElementsByClassName('overflowVideo')[0].classList.add('activeOverflowVideo');
-      document.getElementsByClassName('modalWrappVideo')[0].classList.add('activeModalWrappVideo');
-
-      setTimeout(() => {
-        player.playVideo();
-      }, 500);
-    }
-  }
-}
-
-let _closeVideo = () =>{
-  let closeModalTg = document.getElementById('closeModal');
-
-  closeModalTg.onclick = (e) => {
-    e.preventDefault();
-
-    player.pauseVideo();
-    player.mute();
-
-    document.getElementsByClassName('overflowVideo')[0].classList.remove('activeOverflowVideo');
-    document.getElementsByClassName('modalWrappVideo')[0].classList.remove('activeModalWrappVideo');
-  }
-
-}
-
-let _sliderAbout = () =>{
+ 
   
-
-}
-
-window.onload = () => {
-  _onYouTubeIframeAPIReady(0);
-  _openVideo();
+window.onload = () => {  
   _clickAnchorLink();
-  _openHideMenu();
-  _closeVideo();
+  _openHideMenu(); 
   _parallaxSlider();
   _sliderAbout();
 
