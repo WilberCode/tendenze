@@ -190,18 +190,20 @@ let _openHideMenu = () => {
 }
 
  
-  
+ 
 window.onload = () => {  
   _clickAnchorLink();
   _openHideMenu(); 
   _parallaxSlider();
-  _sliderAbout();
+  // _sliderAbout();
 
   window.onscroll = () => {
     _parallaxSlider();
     _fixedHeader();
     _parallaxCategorias();
   }
+ 
+
 }
 
 
