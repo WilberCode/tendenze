@@ -140,7 +140,7 @@
     </div>
     <div class="w_100 w_60_desktop section_middle_center promo">
       <!-- <img src="images/trabajos.webp" alt="Trabajos" title="Trabajos"/>   --> 
-      <video playsinline   autoplay  loop muted name="media" id="front-video"  >
+      <video playsinline loop muted name="media" id="front-video"  >
         <source  src="images/trabajos.mp4" type="video/mp4"></video>
     </div>
   </div>  
@@ -201,8 +201,13 @@
   </div> -->
 
    <script> 
-     var videoImg = document.getElementById('front-video')
-     videoImg.autoplay = "true" 
+    //  var videoImg = document.getElementById('front-video')
+    //  videoImg.autoplay = "true" 
+
+     (function(){ 
+         var videoImg = document.getElementById('front-video')
+        videoImg.autoplay = "true" 
+     })()
   </script>
 </body>
 </html>
