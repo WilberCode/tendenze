@@ -1,0 +1,37 @@
+{
+  "name": "tendenze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw-production.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": { 
+    "build": "postcss css/bastemp.css -o css/bastemp.min.css",
+    "watch": "watch \"npm run build\" ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilberCode/tendenze.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilberCode/tendenze/issues"
+  },
+  "homepage": "https://github.com/WilberCode/tendenze#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "cssnano": "^4.1.10",
+    "gulp-purgecss": "^1.2.0",
+    "postcss": "^7.0.17",
+    "postcss-cli": "^6.1.3",
+    "postcss-nested": "^4.1.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "start": "^5.1.0",
+    "watch": "^1.0.2"
+  }
+}
