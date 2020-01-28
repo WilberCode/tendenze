@@ -1,8 +1,8 @@
 /js/script-original.js
 /js/script.js
 sw-production.js
-prepros-6.config
-.vscode/
-/sass
+.prepros-6.config
+.vscode
+sass
  
  
