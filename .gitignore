@@ -7,6 +7,6 @@ sass
 node_modules
 package-lock.json
 css/bastemp.css
-font-awesome.min.css
+font-awesome.css
  
  

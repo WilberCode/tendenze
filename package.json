@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": { 
-    "build": "postcss css/bastemp.css -o css/bastemp.min.css",
+    "build": "postcss css/font-awesome.css -o css/font-awesome.min.css",
     "watch": "watch \"npm run build\" ./css"
   },
   "repository": {
