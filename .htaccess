@@ -11,3 +11,9 @@ RewriteRule . /index.html [L]
 RewriteCond %{HTTP_HOST} ^www.tendenzeperu.com$
 RewriteRule ^/?$ "https://tendenzeperu.com" [R=301,L]
 </IfModule>
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^css-([a-z0-9]+)/(.*) /$2 [R=302,NC,L]
+</IfModule> 
